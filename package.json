@@ -1,0 +1,21 @@
+{
+  "name": "emis-teacher-api",
+  "version": "1.0.0",
+  "description": "API to fetch teacher details from EMIS Bangladesh",
+  "main": "api/teacher.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "vercel": "^28.4.0"
+  },
+  "engines": {
+    "node": ">=22.x"
+  },
+  "author": "Tofazzal Hossain",
+  "license": "MIT"
+}
